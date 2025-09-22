@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    padding:2.4vw;
+    font-size: 2.4vw;
+}
+.random_color_gen{
+    display: flex;
+    gap:1.2vw;
+    font-size: 2.1vw;
+}
+.hex,.rgb{
+min-height: 100vh;
+flex:1;
+
+}
+.hex_btn{
+
+    padding: 0.9vw 1.1vw;
+    cursor: pointer;
+    font-size: 1.1vw;
+    font-weight: bold;
+    background-color: rgb(234, 247, 128);
+}
+
+.rgb{
+    display: flex;
+    flex-direction: column;
+    gap:1.1vw;
+}
+.hex{
+    background-color: #ffffff;
+    padding: 1.1 vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:1.56vw;
+    border:0.2vw dotted #0f0a0a;
+    
+}
+.hex_val{
+    font-size: 2.56vw;
+    font-weight: bold;
+    color: #0f0a0a;
+    padding-bottom: 2vw;
+}
+.rgb{
+    background-color: #ffffff;;
+    padding: 1.1 vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:0.2vw dotted #0f0a0a;
+    font-size: 1.6vw;
+    
+    
+}
+.rgb_val{
+    font-size: 2.56vw;
+    font-weight: bold;
+   color: #0f0a0a;
+   padding-bottom: 3vw;
+}
+
+#rgb_btn{
+
+    margin-top: 4vw;
+    padding: 1vw 1.1vw;
+    cursor: pointer;
+    font-size: 1.1vw;
+    font-weight: bold;
+    background-color: rgb(101, 226, 130);
+}
+
+#copy_rgb, .copy_hex{
+
+     padding: 0.9vw 1.1vw;
+    cursor: pointer;
+    font-size: 1.1vw;
+    font-weight: bold;
+    background-color: rgb(21, 149, 240);
+
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 15px;
+
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+
+.post-list-cont{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.post-item{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(4, 91, 84);
+}
+
+.post-item h3{
+    color:white;
+    font-size: 20px;
+}
+.post-item p{
+    color:rgb(192, 239, 188);
+    font-size: 18px;
+}
+
+

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body.light{
+    background-color: rgb(5, 5, 73);
+}
+
+body.dark{
+    background-color: rgb(225, 202, 172);
+}
+.container{
+    width:100%;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.container h1{
+    color: rgb(205, 237, 118);
+}
+
+.container .change_theme_btn.light{
+    padding: 12px 12px;
+    border:none;
+    background-color: black;
+    font-size: 20px;
+    color: aliceblue;
+    cursor:pointer;
+    border: 3px solid rgb(214, 178, 178);
+}
+
+.container .change_theme_btn.dark{
+    padding: 12px 12px;
+    border:none;
+    background-color: rgb(239, 238, 238);
+    font-size: 20px;
+    color: rgb(20, 25, 30);
+    cursor:pointer;
+    border: 3px solid rgb(181, 207, 96);
+}
