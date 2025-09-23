@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(5, 5, 1);
+    
+}
+body h1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(218, 228, 71);
+}
+
+.loadmoreimg{
+    margin: 150px;
+    margin-left: 550px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(129, 242, 129, 0.583);
+    border: 2px solid whitw;
+
+}
+
+.images-wrapper{
+
+    
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+
+    
+}
+
